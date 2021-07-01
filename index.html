@@ -75,6 +75,7 @@
         <h1>LUIS</h1>
       </div>
     </header>
+
     <!-- MI DESCRIPCION -->
     <section class="container pt-5 d-none d-sm-block" id="Sobre-Mi">
       <div>
@@ -104,6 +105,7 @@
         </div>
       </div>
     </section>
+
     <!-- MI EXPERIENCIA -->
     <section id="Experiencia" class="container text-center py-5">
       <div>
@@ -111,18 +113,29 @@
         <hr />
         <div class="row pt-3">
           <article class="col-12 col-sm-6">
-            <i class="fab fa-empire fa-10x"></i>
+            <i
+              class="fab fa-empire fa-10x"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Tooltip on top"
+            ></i>
             <h4 class="font-weight-bold mt-3">texto a incluir</h4>
             <h4>incluir año</h4>
           </article>
           <article class="col-12 col-sm-6">
-            <i class="fab fa-empire fa-10x"></i>
+            <i
+              class="fab fa-empire fa-10x"
+              data-toggle="popover"
+              title="Popover title"
+              data-content="And here's some amazing content. It's very engaging. Right?"
+            ></i>
             <h4 class="font-weight-bold mt-3">texto a incluir</h4>
             <h4>incluir año</h4>
           </article>
         </div>
       </div>
     </section>
+
     <!-- MIS ULTIMOS TRABAJOS -->
     <section id="Trabajos" class="py-5">
       <div>
@@ -136,7 +149,9 @@
         <div class="row">
           <div class="col-12 col-sm-4 my-3">
             <div class="card border-0">
-              <img src="assets/img/meet_coffee.png" class="card-img-top" />
+              <img 
+              data-toggle="modal" data-target="#exampleModal"
+              src="assets/img/meet_coffee.png" class="card-img-top" />
               <div class="card-body">
                 <h4 class="card-title mb-3">Meet&Coffe</h4>
                 <p class="card-text font-weight-light">
@@ -145,6 +160,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-12 col-sm-4 my-3">
             <div class="card border-0">
               <img src="assets/img/iguana_page.png" class="card-img-top" />
@@ -156,6 +172,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-12 col-sm-4 my-3">
             <div class="card border-0">
               <img src="assets/img/suricata.png" class="card-img-top" />
@@ -179,6 +196,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-12 col-sm-4 my-3">
             <div class="card border-0">
               <img src="assets/img/ricomida.png" class="card-img-top" />
@@ -190,6 +208,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-12 col-sm-4 my-3">
             <div class="card border-0">
               <img src="assets/img/dmark.png" class="card-img-top" />
@@ -204,6 +223,7 @@
         </div>
       </div>
     </section>
+
     <!-- CONTACTO -->
     <section id="Contactos" class="container text-center py-5">
       <div>
@@ -251,13 +271,32 @@
           <i class="fab fa-linkedin fa-3x mx-2"></i>
           <i class="fab fa-twitter-square fa-3x mx-2"></i>
           <i class="fab fa-facebook-square fa-3x mx-2"></i>
-
         </div>
       </div>
-
     </footer>
 
-    
+    <!-- Modal Bootstrap 4.6 -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- SCRIPS JQUERY -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"

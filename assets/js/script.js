@@ -1,3 +1,4 @@
+// INCORPORANDO SMOOTHSCROLL
 $(document).ready(function () {
   $("a").click(function (event) {
     event.preventDefault();
@@ -11,3 +12,7 @@ $(document).ready(function () {
     );
   });
 });
+// INCORPORANDO TOOLTIP BOOTSTRAP 4.6
+$('[data-toggle="tooltip"]').tooltip()
+// INCORPORANDO POPOVER BOOTSTRAP 4.6
+$('[data-toggle="popover"]').popover()

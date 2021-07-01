@@ -107,3 +107,24 @@
 #Trabajos h4 {
     font-family: "Oswald";
 }
+
+/* CONTACTO */
+#Contacto div h1 {
+    font-size: 52px;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+
+#Contacto div hr {
+    width: 150px;
+    border: 1px solid;
+}
+
+/* FOOTER */
+#Footer {
+    background-color: #660066;
+}
+
+#Footer h1 {
+    font-family: "Oswald";
+}

@@ -109,13 +109,13 @@
 }
 
 /* CONTACTO */
-#Contacto div h1 {
+#Contactos div h1 {
     font-size: 52px;
     font-family: "Oswald";
     font-weight: bold;
 }
 
-#Contacto div hr {
+#Contactos div hr {
     width: 150px;
     border: 1px solid;
 }

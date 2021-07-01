@@ -4,7 +4,7 @@
 
 .navbar-brand {
     font-size: 40px;
-    font-family: oswald;
+    font-family: "Oswald";
     font-weight: bold;
 }
 /* HEADER */
@@ -30,7 +30,7 @@
 
 #Hero-Section h1 {
     font-size: 72px;
-    font-family: "oswald";
+    font-family: "Oswald";
 }
 
 #Hero-Section h1:first-child {
@@ -81,10 +81,29 @@
 }
 
 #Experiencia div:last-child article h4:first-child {
-    font-family: "oswald";
+    font-family: "Oswald";
 }
 
 #Experiencia div:last-child article h4:last-child {
     font-family: "Open Sans";
     font-weight: 300;
+}
+
+/* MIS ULTIMOS TRABAJOS */
+#Trabajos {
+    background-color: #660066;
+}
+#Trabajos div h1 {
+    font-size: 52px;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+
+#Trabajos hr {
+    width: 110px;
+    height: 1px;
+}
+
+#Trabajos h4 {
+    font-family: "Oswald";
 }

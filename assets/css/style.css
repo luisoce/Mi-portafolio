@@ -71,6 +71,15 @@
 }
 
 /* MI EXPERIENCIA */
+.fab {
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+  }
+  
+  .fab:hover {
+    transform: scale(1.2);
+  }
+
 #Experiencia i {
     color: #660066;
 }
